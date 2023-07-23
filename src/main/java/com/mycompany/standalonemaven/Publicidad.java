@@ -6,7 +6,6 @@
 package com.mycompany.standalonemaven;   
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 import javax.swing.table.DefaultTableModel;
@@ -26,23 +25,15 @@ public class Publicidad extends javax.swing.JFrame {
         return publicidad;
     }
     
-    Connection connection = null;
-    Statement statement = null;
-    DefaultTableModel modelo=new DefaultTableModel();
-    private Connection connect() {
-        Connection conn = null;
-        try {
-            conn = DriverManager.getConnection("jdbc:sqlite:database2.db");
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
-        return conn;
-    }   
+    private Connection connection;
+    private Statement statement;
+    DefaultTableModel modelo = new DefaultTableModel();
     /**
      * Creates new form Publicidad
      */
     private Publicidad() {
         initComponents();
+        connection = DatabaseConnection.getInstance().getConnection();
         modelo.addColumn("Numero_Empleado");
         modelo.addColumn("Nombre");
         modelo.addColumn("Telefono");
@@ -54,7 +45,6 @@ public class Publicidad extends javax.swing.JFrame {
         modelo.setRowCount(0);
         try {
             //CONECTA A LA BD
-            connection = this.connect();
             statement = connection.createStatement();
             statement.setQueryTimeout(20);
             //QUERY QUE JALA TODAS LAS PUBLICACIONES

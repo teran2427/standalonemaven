@@ -1,0 +1,50 @@
+@options
+@packages
+-classpath
+'C:/Users/teran/.m2/repository/org/xerial/sqlite-jdbc/3.42.0.0/sqlite-jdbc-3.42.0.0.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'9'
+-sourcepath
+'C:/Users/teran/Documents/NetBeansProjects/standalonemaven/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/teran/Documents/NetBeansProjects/standalonemaven/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'standalonemaven 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/9/docs/api' 'C:/Users/teran/Documents/NetBeansProjects/standalonemaven/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'standalonemaven 1.0-SNAPSHOT API'
+com.mycompany.standalonemaven
+C:\Users\teran\.m2\repository\org\xerial\sqlite-jdbc\3.42.0.0\sqlite-jdbc-3.42.0.0.jar = 1690138772088
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\src\main\java = 1690132678366
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\allclasses-frame.html = 1690145139270
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\allclasses-noframe.html = 1690145139327
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\constant-values.html = 1690145137244
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\deprecated-list.html = 1690145139255
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\help-doc.html = 1690145139346
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\index-all.html = 1690145139177
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\index.html = 1690145139336
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\member-search-index.js = 1690145139052
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\member-search-index.zip = 1690145139052
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\overview-tree.html = 1690145138744
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\package-list = 1690145136750
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\package-search-index.js = 1690145138989
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\package-search-index.zip = 1690145139020
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\script.js = 1690145139538
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\search.js = 1690145139585
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\serialized-form.html = 1690145137728
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\stylesheet.css = 1690145139359
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\type-search-index.js = 1690145139036
+C:\Users\teran\Documents\NetBeansProjects\standalonemaven\target\site\apidocs\type-search-index.zip = 1690145139052
